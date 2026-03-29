@@ -1,0 +1,12 @@
+ /* when the screen size is lower than 1200px the desktop
+ navigtion disappear instead show the hamburger menu*/ 
+ /* I wrote 1100px to see the difference but original source
+ has 1200px */
+@media screen and (max-width:1100px){
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+}
